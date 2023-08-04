@@ -1,5 +1,5 @@
 {
-    "name": "oneshoe/drupal-codeception",
+    "name": "mandrius/drupal-codeception",
     "description": "Extension to the Codeception toolset for Drupal testing.",
     "type": "package",
     "repositories": [
@@ -10,23 +10,23 @@
     ],
     "require": {
         "drush/drush": "^10.3 | ^11",
-        "guncha25/drupal-codeception": "^9.0",
+        "guncha25/drupal-deception": "^9.0",
         "drupal/test_users": "^1.0",
         "ext-json": "*"
     },
     "require-dev": {
         "codeception/module-asserts": "^1.3",
         "codeception/module-db": "^1.1",
-        "composer/installers": "^1.2",
+        "composer/installers": "^2.0",
         "composer/xdebug-handler": "^1.0",
-        "drupal/core-composer-scaffold": "^8",
-        "drupal/core-recommended": "^8.8"
+        "drupal/core-composer-scaffold": "^9 || ^10",
+        "drupal/core-recommended": "^9 || ^10"
     },
     "license": "GPL-2.0",
     "authors": [
         {
-            "name": "Eelke Blok",
-            "email": "eelke.blok@oneshoe.nl"
+            "name": "And Pet",
+            "email": "ape@frankly.dk"
         }
     ],
     "minimum-stability": "stable",
